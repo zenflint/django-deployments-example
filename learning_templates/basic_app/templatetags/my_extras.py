@@ -1,6 +1,6 @@
 from django import template
 register = template.Library()
 
-@register.filter
+@register.filter(name='cut')
 def cutout(value, arg):
     return value.replace(arg, '')
