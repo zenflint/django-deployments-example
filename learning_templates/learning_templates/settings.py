@@ -26,7 +26,7 @@ SECRET_KEY = '6m$asa-e6#v1yks3oklf7*^z@ntzjdv$22%%g!i(cik=xniva_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['zenflint.pythonanywhere.com'.]
 
 
 # Application definition
